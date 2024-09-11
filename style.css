@@ -1,0 +1,122 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family: "Montserrat";
+    margin: 1.5rem;
+}
+
+/* Images */
+
+.image-mobile {
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+}
+
+.image-desktop {
+    border-radius: 10px 0px 0px 10px;
+    margin-bottom: 1rem;
+    width: 55%;
+}
+
+/* Image-mobile will be hidden in screens 1439px and wider */
+
+@media screen and (min-width: 1439px) { 
+    .image-mobile {
+      display: none;
+    }
+}
+
+/* Image-desktop will be hidden in screens 200px to 1439px */
+
+@media screen and (min-width: 200px) and (max-width: 1439px){ 
+  .image-desktop {
+    display: none;
+  }
+}
+
+/* Heading and paragraph */
+
+.white-container {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0px 0px 10px 10px;
+    margin-top: -1.2rem;
+    padding: 1.4rem;
+}
+
+.perfume {
+    color: hsl(228, 12%, 48%);
+    font-size: 12px;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase; 
+}
+
+.heading {
+    font-family: "Fraunces";
+    font-size: 39px;
+}
+
+.paragraph {
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    line-height: 1.8;
+    max-width: 95%;
+}
+
+/* Price and Payment Button */
+
+.sale-price {
+    color: hsl(158, 36%, 37%);
+    display: inline;
+    font-family: "Fraunces";
+    font-size: 35px;
+}
+
+.regular-price {
+    color: hsl(228, 12%, 48%);
+    display: inline;
+    font-size: 15px;
+    margin-left: 1rem;
+    text-decoration: line-through;
+}
+
+.payment-button {
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 8px;
+    margin-top: 1rem;
+    max-width: 85%;
+    padding: 1rem;
+    text-align: center;
+    transition: background-color 0.5s ease;
+}
+
+.payment-button-font-style {
+    color: hsl(176, 100%, 97%);
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.payment-button:hover {
+    background-color: #2f5a3e; /* Darker green on hover */
+}
+
+.icon-cart {
+    margin-right: 0.5rem;
+}
+
+/* Screens 1440px and wider */
+
+@media screen and (min-width: 1440px) {
+    .desktop-container {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+        justify-content: center;
+    }
+
+    .white-container {
+        border-radius: 0px 10px 10px 0px;
+        margin-left: -16.9rem;
+        width: 20%;
+    }
+}
