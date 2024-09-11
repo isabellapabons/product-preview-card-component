@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa/hub
+- Solution URL: [https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa/hub](https://www.frontendmentor.io/solutions/product-preview-card-component-B0nSYCQOOO)
 
 - Live Site URL: https://isabellapabons.github.io/product-preview-card-component/
 
