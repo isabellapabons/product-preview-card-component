@@ -28,9 +28,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa/hub]
+- Solution URL: https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa/hub
 
-- Live Site URL: [https://isabellapabons.github.io/product-preview-card-component/]
+- Live Site URL: https://isabellapabons.github.io/product-preview-card-component/
 
 ## My process
 
